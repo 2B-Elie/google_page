@@ -8,26 +8,30 @@ img{
     align-items: center;
     justify-content: center;
 }
-#searchbar{
-    margin-left: 800px;
-    border-radius: 10px;
-    padding: 10px;
-    padding-left: 100px;
 
-  }
 
-  footer{
-    padding: 10px;
-    margin-top: 20%;
+footer{
+padding: 10px;
+margin-top: 20%;
+margin-left: 90%;
+
+}
+header{
     margin-left: 90%;
-
-  }
-  header{
-    margin-left: 90%;
-  }
-.tabl{
+}
+.forme{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+.forme:hover{
+    display: flex;
+    background-color: rgb(184, 182, 179);
+}
+.recherche{
+    margin: auto;
+    max-width: fit-content;
 }
